@@ -88,6 +88,7 @@ add_theme_support( 'editor-styles' );
 
 // Enqueue editor styles.
 add_editor_style( '/lib/gutenberg/style-editor.css' );
+add_editor_style( '/assets/css/editor.css' );
 
 // Adds support for block alignments.
 add_theme_support( 'align-wide' );

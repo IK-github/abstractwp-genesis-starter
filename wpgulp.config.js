@@ -22,6 +22,19 @@ module.exports = {
 	errLogToConsole: true,
 	precision: 10,
 
+	// Addon styles
+	addonStyles: [
+		{
+			styleSRC: './assets/scss/editor.scss', // Path to .scss file.
+			styleDestination: './assets/css/' // Path to place the compiled CSS file.
+		}
+
+		// {
+		// 	styleSRC: './assets/css/add-on-2.scss', // Path to another .scss file.
+		// 	styleDestination: './' // Path to place the compiled CSS file.
+		// }
+	],
+
 	// JS Vendor options.
 	jsVendorSRC: './assets/js/vendor/*.js', // Path to JS vendor folder.
 	jsVendorDestination: './assets/js/', // Path to place the compiled JS vendors file.
