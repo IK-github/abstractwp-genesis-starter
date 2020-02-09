@@ -12,7 +12,7 @@ module.exports = {
 	// Project options.
 	projectURL: 'local.abstractwp.com', // Local project URL of your already running WordPress site. Could be something like wpgulp.local or localhost:3000 depending upon your local WordPress setup.
 	productURL: './', // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
-	browserAutoOpen: true,
+	browserAutoOpen: false,
 	injectChanges: true,
 
 	// Style options.
@@ -21,6 +21,19 @@ module.exports = {
 	outputStyle: 'expanded', // Available options → 'compact' or 'compressed' or 'nested' or 'expanded'
 	errLogToConsole: true,
 	precision: 10,
+
+	// Addon styles
+	addonStyles: [
+		{
+			styleSRC: './assets/scss/editor.scss', // Path to .scss file.
+			styleDestination: './assets/css/' // Path to place the compiled CSS file.
+		}
+
+		// {
+		// 	styleSRC: './assets/css/add-on-2.scss', // Path to another .scss file.
+		// 	styleDestination: './' // Path to place the compiled CSS file.
+		// }
+	],
 
 	// JS Vendor options.
 	jsVendorSRC: './assets/js/vendor/*.js', // Path to JS vendor folder.
