@@ -72,6 +72,13 @@ function abstract_enqueue_scripts_styles() {
 	$appearance = genesis_get_config( 'appearance' );
 
 	wp_enqueue_style(
+		genesis_get_theme_handle() . '-styles',
+		get_stylesheet_directory_uri() . '/assets/css/main.css',
+		[ genesis_get_theme_handle() ],
+			genesis_get_theme_version()
+	);
+
+	wp_enqueue_style(
 		genesis_get_theme_handle() . '-fonts',
 		$appearance['fonts-url'],
 		[],
