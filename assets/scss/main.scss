@@ -1,76 +1,17 @@
-/* Table of Contents
-- HTML5 Reset
-	- Baseline Normalize
-	- Box Sizing
-	- Float Clearing
-- Defaults
-	- Typographical Elements
-	- Headings
-	- Objects
-	- Gallery
-	- Forms
-	- Tables
-	- Screen Reader Text
-- Structure and Layout
-	- Site Container
-	- Site Inner
-- Common Classes
-	- Avatar
-	- Genesis
-	- Search Form
-	- Titles
-	- WordPress
-- Widgets
-	- Featured Content
-- Plugins
-	- Genesis eNews Extended
-	- Genesis Simple FAQ
-	- WPForms
-- Skip Links
-- Site Header
-	- Title Area
-- Site Navigation
-	- Responsive Menu
-	- Header Menu
-	- Footer Menu
-- Content Area
-	- Entry Content
-	- Entry Meta
-	- Pagination
-	- Entry Comments
-- Sidebar
-- Footer Widgets
-- Site Footer
-- Media Queries
-	- Min-width: 960px
-		- Site Header
-		- Genesis Menu
-		- Responsive Menu
-		- Header Menu
-		- Site Inner
-		- Content
-		- Sidebar
-		- Author Box
-		- After Entry
-		- Column Classes
-		- Entry Misc.
-		- Footer Widgets
-- Print Styles
-*/
-
-@import "partials/variables";
-@import "partials/resets";
-@import "partials/defaults";
-@import "partials/structure";
-@import "partials/classes";
-@import "partials/widgets";
-@import "partials/plugins";
-@import "partials/skip-links";
-@import "partials/header";
-@import "partials/menus";
-@import "partials/content";
-@import "partials/sidebar";
-@import "partials/footer-widgets";
-@import "partials/footer";
-@import "partials/custom";
-@import "partials/print";
+@import "theme/variables";
+@import "theme/resets";
+@import "theme/defaults";
+@import "theme/structure";
+@import "theme/classes";
+@import "theme/widgets";
+@import "theme/plugins";
+@import "theme/skip-links";
+@import "theme/header";
+@import "theme/menus";
+@import "theme/content";
+@import "theme/sidebar";
+@import "theme/footer-widgets";
+@import "theme/footer";
+@import "theme/custom";
+@import "theme/print";
+@import "gutenberg/front-end";

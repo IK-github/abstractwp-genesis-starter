@@ -8,7 +8,7 @@
  * @link    https://www.abstractwp.com
  */
 
-add_action( 'wp_enqueue_scripts', 'abstract_enqueue_gutenberg_frontend_styles' );
+// add_action( 'wp_enqueue_scripts', 'abstract_enqueue_gutenberg_frontend_styles' );
 /**
  * Enqueues Gutenberg front-end styles.
  *
@@ -87,7 +87,6 @@ function abstract_blocks_body_classes( $classes ) {
 add_theme_support( 'editor-styles' );
 
 // Enqueue editor styles.
-// add_editor_style( '/lib/gutenberg/style-editor.css' );
 add_editor_style( '/assets/css/editor.css' );
 
 // Adds support for block alignments.
