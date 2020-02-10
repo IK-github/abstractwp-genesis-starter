@@ -19,5 +19,5 @@
 /* Display outline on focus */
 :focus {
 	color: $dark-gray;
-	outline: #ccc solid 1px;
+	outline: $light-gray solid 1px;
 }

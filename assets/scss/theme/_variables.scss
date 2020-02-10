@@ -8,7 +8,7 @@ $lighter-gray: #eee;
 $lightest-gray: #f5f5f5;
 $blue: #0073e5;
 $white: #fff;
-$accent: #ff0066
+$accent: #50c878;
 
 // Base Fonts
 $base-font: "Source Sans Pro", sans-serif;
@@ -77,18 +77,18 @@ $line-height--smaller: 1;
 
 // Font colors
 $body--font-color: $dark-gray;
-$link--font-color: $blue;
+$link--font-color: $accent;
 $link--font-color-hover: darken($accent, 15%);
 $mark--font-color: $dark-gray;
 $button--font-color: $white;
 $button--font-color-hover: $white;
 $entry-title__link--font-color: $dark-gray;
-$entry-title__link--font-color-hover: $blue;
+$entry-title__link--font-color-hover: $accent;
 $site-title__link--font-color: $dark-gray;
 $genesis-nav-menu--font-color: $dark-gray;
-$genesis-nav-menu--font-color-hover: $blue;
+$genesis-nav-menu--font-color-hover: $accent;
 $menu-toggle--font-color: $dark-gray;
-$menu-toggle--font-color-hover: $blue;
+$menu-toggle--font-color-hover: $accent;
 $menu-highlight__link--font-color: $white;
 $sidebar__widget-title--font-color: $dark-gray;
 $forms--font-color: $dark-gray;
@@ -105,11 +105,11 @@ $body--background-color: $white;
 $site-header--background-color: $white;
 $mark--background-color: $light-gray;
 $button--background-color: $dark-gray;
-$button--background-color-hover: $blue;
+$button--background-color-hover: $accent;
 $genesis-nav-menu__sub-menu__link--background-color: $white;
 $footer-widgets--background-color: $white;
 $menu-highlight__link--background-color: $dark-gray;
-$menu-highlight__link--background-color-hover: $blue;
+$menu-highlight__link--background-color-hover: $accent;
 $forms__background-color: $white;
 $sticky--background-color: $lightest-gray;
 $author-box--background-color: $lighter-gray;
