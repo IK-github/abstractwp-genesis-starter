@@ -8,6 +8,7 @@ $lighter-gray: #eee;
 $lightest-gray: #f5f5f5;
 $blue: #0073e5;
 $white: #fff;
+$accent: #ff0066
 
 // Base Fonts
 $base-font: "Source Sans Pro", sans-serif;
@@ -29,6 +30,8 @@ $box-shadow-opacity: 0.05;
 
 // Font sizes
 $body--font-size: 18px;
+$body-small--font-size: 16px;
+$body-large--font-size: 24px;
 $h1--font-size: 30px;
 $h2--font-size: 27px;
 $h3--font-size: 24px;
@@ -65,8 +68,8 @@ $font-weight--semibold: 600;
 $font-weight--bold: 700;
 
 // Line heights
-$line-height--big: 20px;
-$line-height--large: 2;
+$line-height--big: 2;
+$line-height--large: 1.8;
 $line-height--normal: 1.625;
 $line-height--medium: 1.5;
 $line-height--small: 1.2;
@@ -75,7 +78,7 @@ $line-height--smaller: 1;
 // Font colors
 $body--font-color: $dark-gray;
 $link--font-color: $blue;
-$link--font-color-hover: $dark-gray;
+$link--font-color-hover: darken($accent, 15%);
 $mark--font-color: $dark-gray;
 $button--font-color: $white;
 $button--font-color-hover: $white;
@@ -94,6 +97,8 @@ $archive-pagination--font-color-hover: $white;
 $gs-faq__question--font-color: $dark-gray;
 $gs-faq__question--font-color-hover: $blue;
 $disabled--font-color: $med-gray;
+$quote--font-color: $dark-gray;
+$cite--font-color: $med-gray;
 
 // Background colors
 $body--background-color: $white;
