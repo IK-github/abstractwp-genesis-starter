@@ -29,7 +29,7 @@ h3.light,
 h4.light,
 h5.light,
 h6.light {
-	color: #f5f5f5;
+	color: $lightest-gray;
 }
 
 /* Background Color
@@ -57,7 +57,7 @@ h6.light {
 }
 
 .site-container p.has-background.light-text a {
-	color: #fff;
+	color: $white;
 	text-decoration: underline;
 }
 
@@ -134,24 +134,24 @@ h6.light {
 }
 
 .site-container .wp-block-cover .wp-block-cover-text {
-	font-size: 48px;
+	font-size: $h1--font-size;
 }
 
 /* Buttons
 ---------------------------------------------------------------------------- */
 
 .ab-block-cta .ab-button {
-	font-family: "Source Sans Pro", sans-serif;
-	font-weight: 600;
+	font-family: $body--font-family;
+	font-weight: $font-weight--semibold;
 }
 
 .site-container .wp-block-button .wp-block-button__link {
 	border-width: 0;
 	border-radius: 5px;
 	cursor: pointer;
-	font-size: 16px;
-	font-family: "Source Sans Pro", sans-serif;
-	font-weight: 600;
+	font-size: $button--font-size;
+	font-family: $body--font-family;
+	font-weight: $font-weight--semibold;
 	padding: 15px 30px;
 	text-align: center;
 	text-decoration: none;
@@ -191,26 +191,27 @@ h6.light {
 
 .site-container .wp-block-pullquote p,
 .site-container .wp-block-quote p {
-	font-family: "Source Sans Pro", serif;
-	font-size: 21px;
+	font-family: $body--font-family;
+	font-size: $body-large--font-size;
 	font-style: italic;
-	line-height: 1.8;
+	line-height: $line-height--large;
 	margin-bottom: 42px;
+	color: $quote--font-color;
 }
 
 .site-container .wp-block-pullquote p,
 .site-container .wp-block-quote.is-style-large p {
-	font-size: 32px;
+	font-size: $h2--font-size;
 }
 
 .site-container .wp-block-pullquote.is-style-solid-color p {
-	color: #fff;
+	color: $white;
 	margin-bottom: 42px;
 	text-align: center;
 }
 
 .site-container .wp-block-pullquote.is-style-solid-color {
-	background-color: #333;
+	background-color: $dark-gray;
 }
 
 .wp-block-pullquote.is-style-solid-color.alignleft blockquote,
@@ -227,10 +228,10 @@ h6.light {
 
 .site-container .wp-block-pullquote cite,
 .site-container .wp-block-quote cite {
-	color: #666;
+	color: $cite--font-color;
 	display: block;
-	font-family: "Source Sans Pro", serif;
-	font-size: 16px;
+	font-family: $body--font-family;
+	font-size: $body-small--font-size;
 	font-style: italic;
 	margin-top: -25px;
 	text-align: inherit;
@@ -242,7 +243,7 @@ h6.light {
 }
 
 .site-container .wp-block-pullquote.is-style-solid-color cite {
-	color: #fff;
+	color: $white;
 	font-style: italic;
 }
 
@@ -328,7 +329,7 @@ h6.light {
 
 .wp-block-preformatted,
 .wp-block-verse {
-	font-size: 16px;
+	font-size: $body-small--font-size;
 }
 
 .wp-block-preformatted {
@@ -338,7 +339,7 @@ h6.light {
 hr.wp-block-separator {
 	border: none;
 	border-bottom: 1px solid currentColor;
-	color: #eee;
+	color: $lighter-gray;
 	margin: 1.65em auto;
 }
 
@@ -347,7 +348,7 @@ hr.wp-block-separator {
 }
 
 .wp-block-separator.is-style-dots {
-	color: #333;
+	color: $dark-gray;
 }
 
 .wp-block-audio audio {
