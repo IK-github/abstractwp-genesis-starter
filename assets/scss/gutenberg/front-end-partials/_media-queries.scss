@@ -1,0 +1,25 @@
+/* Media Queries
+---------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 960px) {
+  .full-width-content .entry-content > .alignwide {
+	margin-left: -180px;
+	margin-right: -180px;
+	max-width: calc(100% + 360px); /* 360 equals sum of left and right margin */
+	width: auto;
+  }
+
+  .alignfull .alignwide,
+  .alignwide .alignwide {
+	max-width: 1062px;
+	margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 781px) {
+  .site-container .wp-block-column {
+	flex-basis: 100%;
+	margin-left: 0;
+	margin-right: 0;
+  }
+}
